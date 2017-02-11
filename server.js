@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/sasipphoto06feb2017b.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'imad.jpeg'));
+  res.sendFile(path.join(__dirname, 'ui', 'sasipphoto06feb2017b.JPG'));
 });
 
 
