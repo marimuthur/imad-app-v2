@@ -17,7 +17,7 @@ app.get('/ui/akila.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mari.png'));
 });
 
-app.get('ui/vaishu.png', function (req, res) {
+app.get('/ui/vaishu.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'vaishu.PNG'));
 });
 
