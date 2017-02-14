@@ -1,8 +1,8 @@
 body {
     font-family: Comic Sans MS;
-    background-color:brown;
+    background-color:blue;
     color: white;
-    margin-top: 175px;
+    margin-top: 75px;
 }
 
 .center {
@@ -20,6 +20,6 @@ body {
 }
 
 .img-medium {
-    height:100px;
+    height:400px;
 }
 
