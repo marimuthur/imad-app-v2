@@ -20,8 +20,8 @@ app.get('/ui/akila.png', function (req, res) {
 app.get('/ui/vaishu.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'vaishu.PNG'));
 });
-app.get('/ui/akilafamily.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'akilafamily120217.png'));
+app.get('/ui/jav.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jav.png'));
 });
 app.get('/ui/dad.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'dad.png'));
