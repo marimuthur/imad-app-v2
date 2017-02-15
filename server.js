@@ -26,10 +26,7 @@ app.get('/ui/akilafamily.png', function (req, res) {
 app.get('/ui/dad.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'dad.png'));
 });
-app.get('/counter',function(req,res){
-        counter=counter+1;
-        res.send(counter,tostring());
-        });
+
 var counter=0;
 app.get('/counter', function (req, res) {
     counter = counter+1;
