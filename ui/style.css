@@ -9,6 +9,10 @@ body {
    color: blue;
 }
 
+.left {
+    text-align: left;
+   color: blue;
+}
 .date {
     text-align: right;
     font-size: 200%;
